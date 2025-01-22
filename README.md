@@ -44,3 +44,18 @@ npm create vite@latest meu-projeto -- --template react
 * O valor é passado como um atributo na chamada do componente;
 * E precisa ser resgatado dentro de uma propriedade/argumento chamada props na função de definição do componente;
 * As props são somente de leitura!;
+
+## Adicionando CSS
+
+* O CSS pode ser adicionado de forma global na aplicação, por meio do arquivo App.css ou index.css por exemplo;
+* Porem é possivel estilizar a nivel de componentes;
+* Utilizamos o CSS modeules para isso;
+* Basta cruar um arquivo como: componente.modulo.css
+* E chamar este CSS no componente;
+
+## Fragmentos 
+
+* Os React Fragments permite a criaçãi de um componente sem elemeto pai;
+* O proposito é descmoplicar os nós do DOM;
+* A sintaxe é <> e </>, não há um nome para a tag;
+* Criamos no próprio JSX

@@ -1,7 +1,19 @@
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    background-color: #efefef;
+   
 }
 
 div{
     text-align: center;
 }
+
+h1{
+    color: #333;
+}
+
+p{
+    background-color: #999;
+    padding: 10px;
+}
+

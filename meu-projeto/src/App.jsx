@@ -2,6 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import SayMyName from './components/SayMyName'
 import Pessoa from './components/Pessoa'
+import Frase from './components/frase'
+import List from './components/List'
+
+
 
 
 function App() {
@@ -10,6 +14,9 @@ function App() {
   
   return (
       <div>
+        <h1>Testando o css</h1>
+        <Frase/>
+        <Frase/>
         <SayMyName nome = "Filipe"/>
         <SayMyName nome = "Breno"/>
         <SayMyName nome = {nome}/>
@@ -19,6 +26,7 @@ function App() {
           profissao="Programador"
           foto="https//via.placeholder.com/150"
         />
+        <List/>
       </div>
   )
 }
